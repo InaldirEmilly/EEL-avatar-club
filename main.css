@@ -1,0 +1,259 @@
+/* Define a fonte padrão para o texto do corpo do documento */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	/* Remove as margens padrão do corpo do documento */
+	padding: 0;
+	/* Remove o preenchimento padrão do corpo do documento */
+	color: #333;
+	/* Define a cor do texto para um tom de cinza  */
+	background: #ddd;
+	/* Define a cor de fundo para um cinza claro  */
+	background-image: url('ceu.jpg');
+	/* Define uma imagem de fundo chamada ceu*/
+	background-size: cover;
+	/* Ajusta a imagem de fundo para cobrir todo o elemento */
+	background-repeat: no-repeat;
+	/* Impede a repetição da imagem de fundo */
+	background-attachment: fixed;
+	/* Mantém a imagem de fundo fixa enquanto a pagina é rolada */
+}
+
+/* Estilo para os títulos h1 */
+h1 {
+	text-align: center;
+	/* Centraliza o texto dos títulos h1 */
+	margin-bottom: 20px;
+	/* Adiciona uma margem inferior de 20px aos títulos h1 */
+}
+
+/* Estilo para tabelas */
+table {
+	width: 100%;
+	/* Define a largura da tabela para 100% */
+	border-collapse: collapse;
+	/* Mescla as bordas das células da tabela */
+	margin-bottom: 20px;
+	/* Adiciona uma margem inferior de 20px para tabelas */
+}
+
+/* Estilo para cabeçalhos e células de tabela */
+th,
+td {
+	padding: 10px;
+	/* Define o preenchimento interno de celulas da tabela para 10px */
+	text-align: left;
+	/* Alinha o texto das celulas a esquerda */
+	border-bottom: 1px solid #b0c6dd;
+	/* Adiciona uma borda inferior a 1px sólida com cor  */
+	color: #25456c;
+	/* Define a cor do texto para um tom de azul escuro  */
+}
+
+/* Estilo para cabeçalhos de tabela */
+th {
+	background-color: #b0c6dd;
+	/* Define a cor de fundo para cabeçalhos de tabela  */
+}
+
+/* Estilo para o elemento principal */
+#principal {
+	width: 1000px;
+	/* Define a largura do elemento principal para 1000px */
+	background: #eaf3f7;
+	/* Define a cor de fundo para um azul claro  */
+	margin: 1em auto;
+	/* Define margens verticais de 1em e margens horizontais automáticas para centralização */
+	text-align: center;
+	/* Centraliza o texto dentro do elemento */
+	border: 1px solid #676767;
+	/* Adiciona uma borda de 1px sólida com cor  */
+}
+
+/* Estilo para o elemento cabecalho */
+#cabecalho {
+	height: 400px;
+	/* Define a altura do elemento cabecalho para 400px */
+	width: 100%;
+	/* Define a largura do elemento cabecalho para 100% */
+	position: relative;
+	/* Define a posição do elemento como relativa */
+	background-color: #2c74e0;
+	/* Define a cor de fundo para um azul mais escuro  */
+	border-bottom: 1px solid #6ecaf5;
+	/* Adiciona uma borda inferior de 1px sólida com cor  */
+}
+
+/* Estilo para a barra de navegação menuNav */
+#menuNav {
+	background: #7086ad;
+	/* Define a cor de fundo para um tom de azul mais claro  */
+	color: rgb(15, 15, 15);
+	/* Define a cor do texto para preto */
+	padding: 15px 0;
+	/* Adiciona preenchimento vertical de 15px e nenhum preenchimento horizontal */
+	margin-bottom: 22px;
+	/* Adiciona uma margem inferior de 22px para separação */
+}
+
+/* Estilo para a lista não ordenada dentro da barra de navegação */
+#menuNav ul {
+	margin: 0px 0px 0px 20px;
+	/* Adiciona margens apenas à esquerda da lista */
+	padding: 0px;
+	/* Remove o preenchimento padrão da lista */
+	list-style-type: none;
+	/* Remove os marcadores de lista */
+	border-left: 1px solid #062969;
+	/* Adiciona uma borda esquerda de 1px sólida com cor  */
+}
+
+/* Estilo para os itens da lista na barra de navegação */
+#menuNav li {
+	display: inline;
+	/* Exibe os itens da lista horizontalmente em linha */
+	padding: 0 10px;
+	/* Adiciona preenchimento de 0 à esquerda/direita e 10px ao topo/inferior */
+}
+
+/* Estilo para os links dentro dos itens da lista na barra de navegação */
+#menuNav li a {
+	text-decoration: none;
+	/* Remove a decoração de texto para os links */
+	color: #ffffff;
+	/* Define a cor do texto para branco  */
+}
+
+/* Estilo para o elemento menu */
+#menu {
+	float: right;
+	/* Flutua o elemento a direita do contêiner pai */
+	width: 230px;
+	/* Define a largura do elemento para 230px */
+	border-left: 3px solid #41403f;
+	/* Adiciona uma borda esquerda de 3px sólida com cor  */
+	padding-left: 5px;
+	/* Adiciona um preenchimento interno de 5px a esquerda */
+	height: 600px;
+	/* Define a altura do elemento para 600px */
+}
+
+/* Estilo para o elemento conteudo */
+#conteudo {
+	float: left;
+	/* Flutua o elemento a esquerda do conteiner pai */
+	width: 700px;
+	/* Define a largura do elemento para 700px */
+	margin: 0px 0px 0px 20px;
+	/* Adiciona margens apenas a direita do elemento */
+	text-align: justify;
+	/* Justifica o texto dentro do elemento */
+}
+
+/* Estilo para o elemento rodape */
+#rodape {
+	clear: both;
+	/* Limpa o posicionamento flutuante para evitar sobreposições */
+	color: #f3f3f3;
+	/* Define a cor do texto para um tom de branco  */
+	text-align: center;
+	/* Centraliza o texto no elemento */
+	font-size: 90%;
+	/* Define o tamanho da fonte para 90% do tamanho padrão */
+	background: #504f4f;
+	/* Define a cor de fundo para um tom
+
+ de cinza escuro  */
+	padding: 40px;
+	/* Adiciona preenchimento interno de 40px em todas as direções */
+}
+
+/* Estilo para imagens flutuantes com a classe imagefloat */
+.imagefloat {
+	float: right;
+	/* Flutua a imagem a direita do conteiner */
+	width: 300px;
+	/* Define a largura da imagem para 300px */
+	border: 1px solid #0400ff;
+	/* Adiciona uma borda de 1px sólida com cor  */
+	padding: 2px;
+	/* Adiciona preenchimento interno de 2px em todas as direções */
+	margin: 0px 0px 10px 10px;
+	/* Adiciona margens apenas a esquerda e abaixo da imagem */
+}
+
+/* Estilo para links */
+a {
+	color: #4861ec;
+	/* Define a cor do link para um tom de azul  */
+}
+
+/* Estilos para os diferentes niveis de cabeçalhos */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 0.5em;
+	/* Define margens superior e inferior de 0 e 0.5em respectivamente */
+}
+
+/* Estilo para h2 */
+h2 {
+	font: 140% georgia, times, "times new roman", serif;
+	/* Define o tamanho da fonte, a família de fontes e o estilo do h2 */
+}
+
+/* Estilo para links dentro de h2 */
+h2 a {
+	text-decoration: none;
+	/* Remove a decoração de texto para os links dentro de h2 */
+}
+
+/* Estilo para h3 */
+h3 {
+	color: #e0093f;
+	/* Define a cor do texto para um tom de vermelho  */
+	font: 110% georgia, times, "times new roman", serif;
+	/* Define o tamanho da fonte, a família de fontes e o estilo do h3 */
+}
+
+/* Estilo para parágrafos dentro do elemento conteudo */
+#conteudo p {
+	line-height: 165%;
+	/* Define a altura da linha para 165% do tamanho da fonte */
+}
+
+/* Estilos para imagens flutuantes com classes (imagefloat1, imagefloat2, imagefloat3, imagefloat4) */
+.imagefloat1 {
+	float: right;
+	width: 180px;
+	border: 1px solid #0400ff;
+	padding: 2px;
+	margin: 0px 0px 10px 10px;
+}
+
+.imagefloat2 {
+	float: left;
+	width: 180px;
+	border: 1px solid #0400ff;
+	padding: 2px;
+	margin: 10px 10px 0px 0px;
+}
+
+.imagefloat3 {
+	float: right;
+	width: 200px;
+	border: 1px solid #0400ff;
+	padding: 2px;
+	margin: 40px 0px 10px 10px;
+}
+
+.imagefloat4 {
+	float: left;
+	width: 180px;
+	border: 1px solid #0400ff;
+	padding: 2px;
+	margin: 70px 10px 40px 0px;
+}
